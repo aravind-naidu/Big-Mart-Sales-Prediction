@@ -17,7 +17,7 @@ We have train (8523) and test (5681) data set, train data set has both input and
 
 
 
-Train file: CSV containing the item outlet information with sales value
+**Train file:** CSV containing the item outlet information with sales value
 
 |                  Variable	             |      Description                                                                             |
 |---|--- |
@@ -35,7 +35,7 @@ Train file: CSV containing the item outlet information with sales value
 |Item_Outlet_Sales	                     |Sales of the product in the particular store. This is the outcome variable to be predicted.   |
  
 
-Test file: CSV containing item outlet combinations for which sales need to be forecasted
+**Test file**: CSV containing item outlet combinations for which sales need to be forecasted
 
 |                  Variable	             |      Description                                                                             |
 |---|--- |
