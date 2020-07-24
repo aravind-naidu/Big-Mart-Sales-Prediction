@@ -20,7 +20,7 @@ We have train (8523) and test (5681) data set, train data set has both input and
 Train file: CSV containing the item outlet information with sales value
 
 |                  Variable	             |      Description                                                                             |
---------------------------------------------------------------------------------------------------------------------------------------- |
+|---|--- |
 |Item_Identifier	                       |  Unique product ID                                                                           |                                      
 |Item_Weight	                           |  Weight of product                                                                           |
 |Item_Fat_Content	                       |   Whether the product is low fat or not                                                      |
@@ -38,7 +38,7 @@ Train file: CSV containing the item outlet information with sales value
 Test file: CSV containing item outlet combinations for which sales need to be forecasted
 
 |                  Variable	             |      Description                                                                             |
---------------------------------------------------------------------------------------------------------------------------------------- |
+|---|--- |
 |Item_Identifier	                       |  Unique product ID                                                                           |                                      
 |Item_Weight	                           |  Weight of product                                                                           |
 |Item_Fat_Content	                       |   Whether the product is low fat or not                                                      |
@@ -51,10 +51,3 @@ Test file: CSV containing item outlet combinations for which sales need to be fo
 |Outlet_Location_Type	                   |  The type of city in which the store is located                                              |
 |Outlet_Type	                           |  Whether the outlet is just a grocery store or some sort of supermarket                      |
 
-
-Submission file format
-
-Variable	Description
-Item_Identifier	Unique product ID
-Outlet_Identifier	Unique store ID
-Item_Outlet_Sales	Sales of the product in the particular store. This is the outcome variable to be predicted.
